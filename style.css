@@ -1,0 +1,60 @@
+.background-img{
+    width: 35vw;
+    height: 35vw;
+    margin: auto;
+    /* background-size: 100%; */
+    background: url(Clock_background.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    vertical-align: center;
+}
+#hour{
+    background-color: black;
+    height: 8.5vw;
+    width:5px;
+    position: relative;
+    left:17.4vw;
+    top:8vw;
+    /* display: none; */
+    border-radius: 5px;
+    transform-origin: bottom;
+    
+}
+#minute{
+    background-color: black;
+    height: 12.5vw;
+    width:4px;
+    position: relative;
+    left:17.5vw;
+    top:-4.5vw;
+    /* opacity:0; */
+    border-radius: 8px;
+    transform-origin: bottom;
+    
+}
+#second{
+    background-color: black;
+    height: 15.5vw;
+    width:3px;
+    position: relative;
+    left:17.4vw;
+    top:-20vw;
+    border-radius: 1vw;
+    transform-origin: bottom;
+    /* opacity: 0; */
+}
+#point{
+    width: 1vw;
+    height:1.2vw;
+    background-color: black;
+    position: relative;
+    left:17.2vw;
+    top:16.9vw;
+    border-radius: 25px;
+    z-index: 4;
+}
+
+    
+    
+    
+
